@@ -1,0 +1,135 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.navbar{
+padding:10px;
+display:flex;
+justify-content:space-between;
+border-bottom:solid black 1px;
+gap:10px;
+align-items: center;
+}
+.navbar__s1__title{
+  color:#9839E1;
+}
+.navbar__s2{
+  padding:10px;
+  border:solid black 1px;
+  border-radius:30px;
+  width:60%;
+  display:flex;
+  gap:10px;
+  align-items: center;
+}
+.navbar__s2 input{
+  border:none;
+  width: 80%;
+  font-size:17px;
+}
+.navbar__s2 input:focus{
+  outline:none;
+}
+.navbar__s3{
+  display:flex;
+  gap:10px;
+  align-items: center;
+}
+.categories{
+  display: flex;
+  flex-wrap:wrap;
+ padding:10px;
+ border-bottom: solid black 1px;
+ justify-content: space-around;
+}
+.categories p{
+  background-color: #9839E1;
+  color: white;
+  padding:15px;
+  border-radius:30px;
+}
+.section{
+    width:100%;
+}
+.section img{
+    width:100%;
+}
+.recommended{
+   
+    padding:10px;
+}
+.course__card{
+    width:200px;
+}
+.course__card img{
+    width:100%;
+    height:70%;
+}
+.recommended__container{
+    display: flex;
+     flex-wrap:wrap;
+  justify-content:space-between;
+}
+.recommended p{
+    margin-bottom:5px;
+}
+.topic{
+    padding:10px;
+    margin-top: 50px;
+}
+.topic__container{
+    display:flex;
+    margin-top:10px;
+    flex-wrap:wrap;
+}
+.topic__container p{
+    border: solid grey 2px;
+    padding:10px;
+    margin:3px;
+    flex-grow:1;
+    flex-basis:25%;
+}
+.popular{
+    padding:10px;
+}
+.popular__container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.footer{
+    display:flex;
+    margin-top:30px;
+}
+.maker{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+.footer__sec-one{
+    gap:30px;
+}
+.footer__sec-one p{
+    margin:20px;
+}
+.footer__sec-two p{
+    margin:20px;
+}
+.maker{
+    background-color: black;
+    color: white;
+    padding:10px;
+}
+.maker p{
+    font-size:20px;
+}
